@@ -77,6 +77,13 @@
         android:fragment="com.android.settings.display.AdaptiveSleepSettings"
         settings:controller="com.android.settings.display.AdaptiveSleepPreferenceController" />
 
+    <com.colt.settings.preference.SystemSettingSwitchPreference
+        android:key="hide_notch"
+        android:title="@string/hide_notch_title"
+        android:summary="@string/hide_notch_subtitle"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.display.HideNotchController" />
+
     <Preference
         android:key="display_rotation"
         android:fragment="com.android.settings.preference.DisplayRotation"
