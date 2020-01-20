@@ -25,6 +25,8 @@ import android.os.Bundle;
 import android.os.ServiceManager;
 import android.view.View;
 import android.widget.SeekBar;
+import android.provider.Settings;
+import android.widget.Switch;
 
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
